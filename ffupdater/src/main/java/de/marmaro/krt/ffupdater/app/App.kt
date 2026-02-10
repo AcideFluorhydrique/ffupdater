@@ -28,6 +28,7 @@ import de.marmaro.krt.ffupdater.app.impl.ThunderbirdRelease
 import de.marmaro.krt.ffupdater.app.impl.TorBrowser
 import de.marmaro.krt.ffupdater.app.impl.TorBrowserAlpha
 import de.marmaro.krt.ffupdater.app.impl.Vivaldi
+import de.marmaro.krt.ffupdater.app.impl.Waterfox
 
 @Keep
 enum class App {
