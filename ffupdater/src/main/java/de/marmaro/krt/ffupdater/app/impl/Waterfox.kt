@@ -26,10 +26,10 @@ object Waterfox : AppBase() {
     override val title = R.string.waterfox__title
     override val description = R.string.waterfox__description
     override val downloadSource = "GitHub"
-    override val icon = R.drawable.ic_logo_firefox_release
+    override val icon = R.drawable.ic_logo_waterfox
     override val minApiLevel = Build.VERSION_CODES.LOLLIPOP
     override val supportedAbis = ARM32_ARM64_X86_X64
-    override val signatureHash = "2939997a2d8f07303ceb37ad6810afef0bda710be2116476e3525a7379ec2e1a" // To be filled after installation
+    override val signatureHash = "f091ca3998b49e159d23ee95586999c75d0b7023fcf9c54192a81300ac166e17"
     override val projectPage = "https://github.com/BrowserWorks/waterfox-android"
     override val displayCategory = listOf(BASED_ON_FIREFOX)
     override val hostnameForInternetCheck = "https://api.github.com"
